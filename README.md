@@ -42,13 +42,10 @@ To start using IAM, you must subscribe to at least one of the AWS services that 
 #### 4.4. Click on Next and `Set Policy`
    <img src="/Image/7.png" width="400" height="200">
 
-#### 4.5. Click on Next and `Set Policy`
-   <img src="/Image/8.png" width="400" height="200">
-
-#### 4.6. Click on Next Step and `Review` your created group
+#### 4.5. Click on Next Step and `Review` your created group
    <img src="/Image/9.png" width="400" height="200">
 
-#### 4.7. Now we will get our newly created group
+#### 4.6. Now we will get our newly created group
    <img src="/Image/10.png" width="400" height="200">
 
 ### 5. IAM Users:
@@ -77,7 +74,24 @@ The AWS Management Console brings the unmatched breadth and depth of AWS right t
    <img src="/Image/15.png" width="400" height="200">
 
 **NOTE:** Select **`Console Password`** as ***`Custom Password`***.
+
 **NOTE:** Uncheck **`Required Password Reset`** otherwise _it will reset password of IAM user everytime after login_
 
-When you create an IAM user, you grant it permissions by making it a member of a group that has appropriate permission policies attached (recommended), or by directly attaching policies to the user. You can also clone the permissions of an existing IAM user, which automatically makes the new user a member of the same groups and attaches all the same policies. 
+#### 5.5 .When you create an IAM user, you grant it permissions by making it a member of a group that has appropriate permission policies attached (recommended), or by directly attaching policies to the user. You can also clone the permissions of an existing IAM user, which automatically makes the new user a member of the same groups and attaches all the same policies. 
    <img src="/Image/17.png" width="400" height="200">
+
+#### 5.6. Review User and click on Create User
+   <img src="/Image/18.png" width="400" height="200">
+
+#### 5.7. After clicking we will get **Success screen*
+   <img src="/Image/19.png" width="400" height="200">
+
+**NOTE:** ***Important point*** is as a IAM user we will get an **`Account ID: 707873*******`** that is unique id and with that id only IAM user can login into his AWS IAM account.
+   <img src="/Image/20.png" width="400" height="200">
+
+#### 6. Provide IAM user credentials
+   <img src="/Image/20.png" width="400" height="200">
+
+#### 7. Now you are in IAM AWS user account
+   <img src="/Image/21.png" width="400" height="200">
+
